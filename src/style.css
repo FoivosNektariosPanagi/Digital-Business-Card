@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ 
+  
+ 
+}
+
+body{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: #23252C;
+  
+}
+
+.App{
+  
+   display: flex; 
+   flex-direction: column;
+   background-color: #1A1B21;
+   height: 780px;
+   width: 317px;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Info{
+ 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  
+}
+.info__image{
+  height: 317px;
+  width: 317px;
+  object-fit: cover;
+  margin-bottom: 10px; 
+}
+
+.info__name{
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+
+  
+}
+
+.info__job{
+  font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #F3BF99;
+
+
+}
+
+.info__website{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+
+.info__social{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+a{
+  text-decoration: none;  
+
+}
+
+.info__social__btn{
+  width: 115px;
+  height:  34px;
+  border-radius: 6px;
+  border: 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  
+}
+
+.info__social__btn__mail{
+  background: linear-gradient(0deg, #D1D5DB, #D1D5DB),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  border: 1px solid #D1D5DB;
+}
+.info__social__mailicon{
+  width: 16px;
+  height: 16px;
+
+}
+.info__social__maillnk{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #374151;
+}
+
+.info__social__btn__linkedin{
+  background: #5093E2;
+}
+.info__social__linkedinIcon{
+  width: 16px;
+  height: 16px; 
+  color: #FFFFFF;
+
+}
+
+.info__social__linkedinLink{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;  
+}
+
+.About{
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+ 
+  row-gap: 4px;
+
+}
+
+.About__headline{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F5F5F5;
+}
+.About_txt{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DCDCDC;
+}
+
+.Footer{
+  display: flex;
+  margin-top: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  justify-content: center;
+  column-gap: 20px;
+  background: #161619;
+
+
+}
+
+.info__social__mailicon{
+  width: 25px;
+  height: 25px;
+
+
+}
